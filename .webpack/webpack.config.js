@@ -10,6 +10,7 @@ module.exports = {
     libraryTarget: 'umd',
     umdNamedDefine: true,
   },
+  devtool: 'source-map',
   externals: {
     '@revolist/revogrid': '@revolist/revogrid',
     '@revolist/revogrid/loader': '@revolist/revogrid/loader',
@@ -25,7 +26,7 @@ module.exports = {
         test: /\.tsx?$/,
         use: 'ts-loader',
         exclude: /node_modules/,
-        
+
       },
     ],
   },

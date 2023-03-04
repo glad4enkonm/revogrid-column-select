@@ -1,8 +1,9 @@
 {
   "name": "@revolist/revogrid-column-select",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Select column type for RevoGrid system based on revo-dropdown",
   "main": "dist/main.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "webpack --config ./.webpack/webpack.config.js",
     "serve": "webpack serve --config ./.webpack/webpack.dev.js"
